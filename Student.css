@@ -1,0 +1,30 @@
+.Student-Class {
+    color: white;  /* White text color for contrast */
+    background: linear-gradient(135deg, #81c784, #66bb6a, #4caf50); /* Smooth green gradient */
+    border: 2px solid #fff;  /* Light border for separation */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;  /* Centering */
+    text-align: center;
+    width: 250px;  /* Adjust box size */
+    padding: 20px;  /* Adjust padding */
+    border-radius: 8px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;  /* Smooth transition for transformation, shadow, and background */
+  }
+  
+  /* Image Styling */
+  .Student-Class img {
+    width: 90px;  /* Larger image */
+    height: 90px; /* Keep it square */
+    border-radius: 50%; /* Circular image */
+    object-fit: cover; /* Ensure it fills the circle */
+    display: block; /* Remove inline spacing */
+    margin: 0 auto 10px auto; /* Center image with space below */
+  }
+  
+  /* Hover effect */
+  .Student-Class:hover {
+    transform: translateY(-10px) scale(1.05);  /* Move the card up and slightly enlarge */
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.3);  /* Stronger shadow */
+    background: linear-gradient(135deg, #66bb6a, #4caf50, #81c784);  /* Change gradient slightly on hover */
+  }
+  
